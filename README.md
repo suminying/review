@@ -54,8 +54,7 @@ $ git merge --no-ff hotfix - 무조건 3-way 병합 수행
 $ git merge --ff-only hotfix - fast-forward인 경우에만 병합 진행                                                             
 $ git merge --squash hotfix - 현재 브랜치에서 커밋 하나만 생성해서 병합
 
-### 버전 되돌리기                                                                                                           
-$ git reset --hard HEAD~ - 저장된 HEAD~의 내용으로 작업 폴더와 스테이지 영역, 깃 저장소가 모두 복사,수정                         
+### 버전 되돌리기                                                                                                                                                                                                                                                             
 $ git reset --hard ORIG HEAD - 이전에 수행한 reset을 바로 취소하는 명령                                                        
-$ git reset --soft HEAD~ - 지정된 HEAD의 내용으로 깃 저장소만 복사,수정
+
  
